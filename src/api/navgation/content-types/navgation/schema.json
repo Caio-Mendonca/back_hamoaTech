@@ -4,8 +4,7 @@
   "info": {
     "singularName": "navgation",
     "pluralName": "navgations",
-    "displayName": "navgation",
-    "description": ""
+    "displayName": "Navgation"
   },
   "options": {
     "draftAndPublish": true
@@ -15,13 +14,8 @@
     "title": {
       "type": "string"
     },
-    "id_reference_project": {
+    "reference_project": {
       "type": "string"
-    },
-    "project": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::project.project"
     }
   }
 }

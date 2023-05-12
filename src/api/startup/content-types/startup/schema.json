@@ -4,7 +4,7 @@
   "info": {
     "singularName": "startup",
     "pluralName": "startups",
-    "displayName": "startups"
+    "displayName": "Startups"
   },
   "options": {
     "draftAndPublish": true
