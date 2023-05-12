@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medias",
+  "info": {
+    "singularName": "media",
+    "pluralName": "medias",
+    "displayName": "Redes Sociais"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

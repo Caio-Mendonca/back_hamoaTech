@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "condominiums",
+  "info": {
+    "singularName": "condominium",
+    "pluralName": "condominiums",
+    "displayName": "condominiums"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "link_site_jmd": {
+      "type": "string"
+    }
+  }
+}
